@@ -1,0 +1,92 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Direction of Velocity of a point on the link is",
+        "answers": {
+          "a": "Perpendicular to the link",
+          "b": "Parallel to the link",
+          "c": "at 45<sup>o</sup> to the link",
+          "d": "Can be at any angle to the link"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "For a link with constant angular velocity which is constant?",
+        "answers": {
+          "a": "Magnitude of linear velocity of a point on link",
+          "b": "Direction of linear velocity of a point on link",
+          "c": "Magnitude and Direction of linear velocity of a point on link",
+          "d": "Neither Magnitude nor Direction of linear velocity of a point on link"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "For a 20cm link rotating about one end with an angular velocity of 2 rad/s what will be the linear velocity of the other end ?",
+        "answers": {
+          "a": "80cm/s",
+          "b": "800cm/s",
+          "c": "400cm/s",
+          "d": "40cm/s"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "d",
+        "difficulty": ""
+      },
+      {
+        "question": "Angular velocity of a fixed link is",
+        "answers": {
+          "a": "zero",
+          "b": "same as input link",
+          "c": "same as coupler link",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "Angular Acceleration of input link rotating with constant angular velocity is",
+        "answers": {
+          "a": "Zero",
+          "b": "Positive",
+          "c": "Negative",
+          "d": "Can't be Determined"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      }
+    ]
+  }
+  
+  
