@@ -589,17 +589,16 @@ function checkGrashof() {
   var l = links[3];
   if (s + l > p + q) {
     flaggrashof = false;
-    document.getElementById("commentboxleft").style.display="none";
-    document.getElementById("commentboxright").style.display="none";
+    document.getElementById("commentboxleft").style.display = "none";
+    document.getElementById("commentboxright").style.display = "none";
     document.getElementById("commentboxright1").style.visibility = "visible";
-    document.getElementById("commentboxright1").innerHTML = 
-             'This simulation is exclusively for non-Grashof Combinations.<br> Please change the slider value</div>';
-
+    document.getElementById("commentboxright1").innerHTML =
+      "This simulation is exclusively for non-Grashof Combinations.<br> Please change the slider value</div>";
   } else {
     flaggrashof = true;
-    document.getElementById("commentboxleft").style.display="block";
-    document.getElementById("commentboxright").style.display="block";
-        document.getElementById("commentboxright1").style.visibility = "hidden";
+    document.getElementById("commentboxleft").style.display = "block";
+    document.getElementById("commentboxright").style.display = "block";
+    document.getElementById("commentboxright1").style.visibility = "hidden";
   }
 }
 
@@ -607,34 +606,34 @@ function dispTables() {
   document.getElementById("datatable1").innerHTML =
     "\
 <table>\
-<tr><th>Variable</th><th>Value</th></tr>\
-<tr><td>&theta;<sub>2</sub>&nbsp;(&deg;)</td><td>" +
+<tr><th>Variable</th><th>Value</th><th class='unit'>(Unit)</th></tr>\
+<tr><td>&theta;<sub>2</sub>&nbsp;</td><td>" +
     roundd(theta2, 2) +
-    "</td></tr>\
-<tr><td>&theta;<sub>3</sub>&nbsp;(&deg;)</td><td>" +
+    "</td><td class='unit'>&deg;</td></tr>\
+<tr><td>&theta;<sub>3</sub>&nbsp;</td><td>" +
     roundd(theta3, 2) +
-    "</td></tr>\
-<tr><td>&theta;<sub>4</sub>&nbsp;(&deg;)</td><td>" +
+    "</td><td class='unit'>&deg;</td></tr>\
+<tr><td>&theta;<sub>4</sub>&nbsp;</td><td>" +
     roundd(theta4, 2) +
-    "</td></tr>\
-<tr><td>&omega;<sub>2</sub>&nbsp;(rad/s)</td><td>" +
+    "</td><td class='unit'>&deg;</td></tr>\
+<tr><td>&omega;<sub>2</sub>&nbsp;</td><td>" +
     roundd(omega2, 2) +
-    "</td></tr>\
-<tr><td>&omega;<sub>3</sub>&nbsp;(rad/s)</td><td>" +
+    "</td><td class='unit'>rad/s</td></tr>\
+<tr><td>&omega;<sub>3</sub>&nbsp;</td><td>" +
     roundd(omega3, 2) +
-    "</td></tr>\
-<tr><td>&omega;<sub>4</sub>&nbsp;(rad/s)</td><td>" +
+    "</td><td class='unit'>rad/s</td></tr>\
+<tr><td>&omega;<sub>4</sub>&nbsp;</td><td>" +
     roundd(omega4, 2) +
-    "</td></tr>\
-<tr><td>V<sub>2</sub>&nbsp;(mm/s)</td><td>" +
+    "</td><td class='unit'>rad/s</td></tr>\
+<tr><td>V<sub>2</sub>&nbsp;</td><td>" +
     roundd(vel2 / scaleV, 2) +
-    "</td></tr>\
-<tr><td>V<sub>3</sub>&nbsp;(mm/s)</td><td>" +
+    "</td><td class='unit'>mm/s</td></tr>\
+<tr><td>V<sub>3</sub>&nbsp;</td><td>" +
     roundd(vel3 / scaleV, 2) +
-    "</td></tr>\
-<tr><td>V<sub>4</sub>&nbsp;(mm/s)</td><td>" +
+    "</td><td class='unit'>mm/s</td></tr>\
+<tr><td>V<sub>4</sub>&nbsp;</td><td>" +
     roundd(vel4 / scaleV, 2) +
-    "</td></tr>\
+    "</td><td class='unit'>mm/s</td></tr>\
 </table>";
   if (scaleV >= 1)
     printcomment(
