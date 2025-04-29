@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "For a constant input angular velocity which of the following is true always?",
+      "answers": {
+        "a": "angular velocity of coupler is constant",
+        "b": "angular velocity of output is constant",
+        "c": "angular velocity of coupler and output are both constant",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "For parallelogram linkage (length of input and output are same, length of coupler and fixed link are same) ?",
+      "answers": {
+        "a": "Input velocity = Output velocity ",
+        "b": "Velocity of fixed link is zero",
+        "c": "All given statements are correct",
+        "d": "Angular velocity of coupler is zero"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Which of the following has angular acceleration zero always?",
+      "answers": {
+        "a": "All of these",
+        "b": "Input link with constant angular acceleration",
+        "c": "Output link in parallelogram linkage with constant input angular velocity",
+        "d": "Coupler link in parallelogram linkage"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "What is the velocity of point P shown in the figure. Given that AB=CD=PC, AD=BC, velocity of B = 10cm/s <br><img src='./images/exp2Q.jpg'/>",
+      "answers": {
+        "a": "10cm/s",
+        "b": "20cm/s",
+        "c": "5cm/s",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In a mechanism with input link 30cm and coupler 40cm, what is the magnitude of velocity of Output link at an instant when the coupler forms a right angle with the input link and both input and coupler are rotating at an angular speed of 1rad/s?",
+      "answers": {
+        "a": "70cm/s",
+        "b": "10cm/s",
+        "c": "50cm/s",
+        "d": "35cm/s"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+#canvas-container {
+  position: relative;
+}
+/* canvas#simscreen2 {
+  position: absolute;
+  left: 30px;
+  top: 250px;
+  height: 400px;
+  width: 550px;
+} */
+
+canvas#simscreen {
+  position: absolute;
+  left: 17px;
+  top: 86px;
+  height: 414px;
+  width: 575px;
+  display: block;
+}
+
+/* div#commentboxleft {
+  position: absolute;
+  left: 18px;
+  top: 501px;
+  height: 65px;
+  width: 285px;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+
+div#commentboxright {
+  position: absolute;
+  left: 605px;
+  top: 501px;
+  height: 65px;
+  width: 285px;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+} */
+
+.varname {
+  position: relative;
+  font-size: 14px;
+  display: inline;
+}
+
+.varname p {
+  position: relative;
+  top: 1px;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1em;
+  display: inline;
+}
+
+.usercheck {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  padding-top: 15px;
+  height: 20px;
+  width: 125px;
+}
+.usercheck p {
+  position: relative;
+  margin: 0;
+  font-size: 12px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.usercheck input {
+  position: relative;
+  top: 2px;
+  margin: 0;
+}
+.usercheck #resetparams {
+  position: relative;
+  left: 38px;
+  margin-top: 3px;
+}
+
+#quickreficon {
+  background-image: url("../images/quickreficon.png");
+  position: absolute;
+  left: 564px;
+  top: 471px;
+  height: 24px;
+  width: 24px;
+  border: double;
+}
+#legendicon {
+  background-image: url("../images/legendicon.png");
+  position: absolute;
+  left: 564px;
+  top: 471px;
+  height: 24px;
+  width: 24px;
+  border: double;
+}
+#quickref {
+  position: absolute;
+  left: 600px;
+  top: 225px;
+  height: 100px;
+  width: 0px;
+  border: solid 0px;
+  z-index: 99;
+  overflow: hidden;
+}
+#legend {
+  position: absolute;
+  left: 300px;
+  top: 95px;
+  height: 0px;
+  width: 100px;
+  border: solid 0px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+table,
+td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: max-content;
+  /* padding: 0.5rem; */
+}
+
+td:nth-child(2) {
+  width: 8rem;
+}
+.datatable {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+}
+
+/* .datatable {
+  width: 140px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#datatable1 {
+  left: 700px;
+  top: 100px;
+}
+.datatable table {
+  border: 1px solid #000011;
+  border-collapse: collapse;
+  width: 120px;
+}
+.datatable th {
+  border: 1px solid #000011;
+  width: 52px;
+}
+.datatable td {
+  border: 1px solid #000011;
+  width: 52px;
+}
+.datatable p {
+  position: relative;
+  font-size: 12px;
+  left: -10px;
+} */
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#titleincanvas {
+  grid-column: 1/-1;
+  justify-self: center;
+  padding: 0.5rem;
+}
+
+.comments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/-1;
+  align-items: center;
+  justify-content: space-around;
+  /* border-top: 1px dotted black; */
+}
+
+#commentboxleft,
+#commentboxright {
+  justify-self: center;
+}

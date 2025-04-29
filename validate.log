@@ -1,0 +1,11 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-velocity-analysis-grashof-nitk/exp-velocity-analysis-grashof-nitk/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-velocity-analysis-grashof-nitk/exp-velocity-analysis-grashof-nitk/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Validated true
