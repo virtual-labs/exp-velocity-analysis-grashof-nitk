@@ -62,11 +62,6 @@ em:current font size
     flex-direction: column;
   }
 
-  /* #titleincanvas {
-    position: absolute;
-    left: 325px;
-    top: 53px;
-  } */
   .title-div h1 {
     font-size: 2rem;
   }
